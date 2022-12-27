@@ -3,6 +3,40 @@ for(var i=1;i<=10;i++){
     console.log(i);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 for(x=4;x<=60;x+=4){
     console.log(x);
 }
@@ -23,6 +57,33 @@ for(var saludo=1;saludo<=8;saludo++){
 
 var resultado=[4,20,"bien","mal",20.3]
 console.log(resultado[1]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 var mensajes=["Ok","Mañana","Hola",25,35.8,"si"]
 console.log(mensajes.length)
