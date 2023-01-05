@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repaso</title>
+    <link rel="stylesheet" href="./CSS/index.css">
+</head>
+<body onclick="reproduccion()">
+    
+    <div class="cajaDeDatos">
+        <h1 class="titulo">Datos Personales</h1>
+        <div class="datosusuarios">
+            <label for="nombre">NOMBRES:</label>
+            <input type="text" placeholder="Ingresa tu nombre" id="nombre" class="casillaNombre">
+            <br><br>
+            <label for="apellido">APELLIDOS:</label>
+            <input type="text" placeholder="Ingresa tu apellido" id="apellido" class="casillaApellido">
+            <br><br>
+            <label for="edad">EDAD:</label>
+            <input type="number" placeholder="Ingresa tu edad" id="edad" class="casillaEdad">
+            <br><br>
+            <label for="correo">CORREO:</label>
+            <input type="email" placeholder="Ingresa tu correo" id="correo" class="casillaCorreo">
+            <br><br>
+            <label for="celular">CELULAR:</label>
+            <input type="tel" placeholder="Ingresa tu celular" id="celular" class="casillaCelular">
+            <br><br>
+            <label for="distrito">DISTRITO:</label>
+            <select name="distrito" id="distrito" class="casillaDistrito">
+                <option value="Comas">Comas</option>
+                <option value="Los olivos">Los olivos</option>
+                <option value="Puente Piedra">Puente Piedra</option>
+                <option value="Carabayllo">Carabayllo</option>
+                
+            </select>
+            <br><br>
+            <input type="submit" id="enviar" class="casillaEnviar" value="Enviar datos">
+        </div>
+        <div class="cajaResultados">
+            <p id="resultados" class="parrafoResultados">Resultados</p>
+        </div>
+    </div>
+
+    <div class="archivoAudio">
+        <!-- <audio controls id="musica">
+            <source src="./audio/Morat.mp3" type="audio/mp3">
+        </audio> -->
+        <br><br>
+        <button id="reproducir">PLAY</button>
+        <button id="parar">DETENER</button>
+        <button id="pausa">PAUSA</button>
+    </div>
+
+
+    
+
+    <script src="./JS/index.js"></script>
+</body>
+</html>
